@@ -1,0 +1,260 @@
+   /* CSS to style the navigation and logo */
+   .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  /*--------------Context----------*/
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .image-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #33333383;
+  }
+
+  .image-content h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .image-content p {
+    color: #fff;
+    font-size: 18px;
+  }
+  /*--------------For Another Layout----------*/
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .card-rate {
+    color: gold;
+    margin-bottom: 10px;
+  }
+
+  .card-price {
+    font-weight: bold;
+  }
+  .header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+  text-align: center;
+  }
+
+  .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  }
+
+ .thankyou-section {
+  margin-bottom: 20px;
+}
+
+.thankyou-section img {
+max-width: 400px;
+margin-bottom: 20px;
+}
+
+.thankyou-section h2 {
+margin-top: 0;
+margin-bottom: 10px;
+}
+
+.thankyou-section p {
+margin-bottom: 10px;
+}
+/* CSS to style the navigation and logo */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/*--------------Context----------*/
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #33333383;
+}
+
+.image-content h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.image-content p {
+  color: #fff;
+  font-size: 18px;
+}
+
+/*--------------For Another Layout----------*/
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-rate {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-weight: bold;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.thankyou-section {
+  margin-bottom: 20px;
+}
+
+.thankyou-section img {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.thankyou-section h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.thankyou-section p {
+  margin-bottom: 10px;
+}
